@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <p class="logo">Compushow</p>
+                <!--  <img src="img/logo.jpg" id="logo"> -->
+                </div>
+            
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                                <img src="img/cart.png" id="img-carrito">
+                                <div id="carrito">                                 
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </header>
+
+
+    <div id="hero"><!-- ENCABEZADO -->
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                            <h2 class="aprende">Consigue tu consola favorita</h2>
+                            <p class="aprende-parrafo">¡¡¡Los mejores precios del mercado!!!</p>
+                            <form action="#" id="busqueda" method="post" class="formulario">
+                                <input class="u-full-width" type="text" placeholder="¿Cual consola estás buscando?" id="buscador">
+                                <input type="submit" id="submit-buscador" class="submit-buscador">
+                            </form>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div><!-- CIERRE ENCABEZADO -->
+
+    <div class="barra"><!-- BARRA -->
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>testo segnaposto utilizzato nel settorez </p>
+                      
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>testo segnaposto utilizzato nel settorez </p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>testo segnaposto utilizzato nel settorez </p>
+                    </div>
+            </div>
+        </div>
+    </div><!-- CIERRE -->
+
+    <div id="lista-cursos" class="container"><!-- PRODUCTOS -->
+        <h1 id="encabezado" class="encabezado">NOVEDADES MARZO</h1>
+        <h2 class="encabezado-2">OFERTAS DESTACADAS EN 12 CUOTAS SIN INTERÉS</h2>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Xbox S.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>XBOX SERIES S - 512GB - DIGITAL</h4>
+                        <p class="parrafo-producto">Game Pass Ultimate - 3 meses</p>
+                        <p class="stock">Producto con stock</p>
+                        <p class="stock">Hasta 12 cuotas sin interés</p>
+                        <p class="precio">$80.000</p>
+                        <a href="#" class="u-full-width  boton button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Xbox S2.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>XBOX SERIES S + JOYSTICK ROBOT BLANCO</h4>
+                        <p class="parrafo-producto">Game Pass Ultimate - 3 meses</p>
+                        <p class="stock">Producto con stock</p>
+                        <p class="stock">Hasta 12 cuotas sin interés</p>
+                        <p class="precio">$90.000</p>
+                        <a href="#" class="u-full-width  boton button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/XboxX.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>XBOX SERIES X + GAME PASS ULTIMATE</h4>
+                        <p class="parrafo-producto">Game Pass Ultimate - 3 meses</p>
+                        <p class="stock">Producto con stock</p>
+                        <p class="stock">Hasta 12 cuotas sin interés</p>
+                        <p class="precio">$160.000</p>
+                        <a href="#" class="u-full-width  boton button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Play5.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>PS5 STANDARD EDTITION + DUALSENSE + 2 JUEGOS</h4>
+                        <p class="parrafo-producto">Suscripción PS Now</p>
+                        <p class="stock">Producto con stock</p>
+                        <p class="stock">Hasta 12 cuotas sin interés</p>
+                        <p class="precio">$169.000</p>
+                        <a href="#" class="u-full-width  boton button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Play52.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>PS5 STANDARD EDTITION + DUALSENSE + 2 JUEGOS</h4>
+                        <p class="parrafo-producto">Suscripción PS Now</p>
+                        <p class="stock">Producto con stock</p>
+                        <p class="stock">Hasta 12 cuotas sin interés</p>
+                        <p class="precio">$169.000</p>
+                        <a href="#" class="u-full-width  boton button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Play4.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>PS4 SLIM + 2 JUEGOS + PS NOW</h4>
+                        <p class="parrafo-producto">Suscripción PS Now</p>
+                        <p class="stock">Producto con stock</p>
+                        <p class="stock">Hasta 12 cuotas sin interés</p>
+                        <p class="precio">$74.900</p>
+                        <a href="#" class="u-full-width  boton button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+    </div>  <!-- CIERRE PRODUCTOS -->
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="three columns">
+                        <nav id="principal" class="menu">
+                            <h2 class="footer-h2">EMPRESA</h2>
+                            <a class="enlace" href="#">Para tu Negocio</a>
+                            <a class="enlace" href="#">Conviertete en Instructor</a>
+                            <a class="enlace" href="#">Aplicaciones Móviles</a>
+                            <a class="enlace" href="#">Soporte</a>
+                        </nav>
+                </div>
+                <div class="three columns">
+                        <nav id="secundaria" class="menu">
+                            <h2 class="footer-h2">NOSOTROS</h2>
+                            <a class="enlace" href="#">¿Quienes Somos?</a>
+                            <a class="enlace" href="#">Empleo</a>
+                            <a class="enlace" href="#">Blog</a>
+                            <a class="enlace" href="#">Soporte</a>
+                        </nav>
+                </div>
+                <div class="three columns">
+                    <nav id="secundaria" class="menu">
+                        <h2 class="footer-h2">LEGAL</h2>
+                        <a class="enlace" href="#">Politica de privacidad</a>
+                        <a class="enlace" href="#">Envios</a>
+                        <a class="enlace" href="#">Devoluciones</a>
+                        <a class="enlace" href="#">Soporte</a>
+                    </nav>
+                </div>
+                <div class="three columns">
+                    <nav id="secundaria" class="menu">
+                        <h2 class="footer-h2">AYUDA</h2>
+                        <a class="enlace" href="#">Consultas</a>
+                        <a class="enlace" href="#">Cómo comprar</a>
+                        <a class="enlace" href="#">Contacto</a>
+                        <a class="enlace" href="#">Área de clientes</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="barra"><!-- BARRA -->
+        <div class="container">
+            <div class="row">
+                    <div class="twelve columns icono ">
+                        <p> CompuShow | Todos los derechos reservados. 2021 </p>
+                    </div>
+                   
+            </div>
+        </div>
+    </div><!-- CIERRE -->
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

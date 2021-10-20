@@ -1,0 +1,259 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #F7FAFC;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background: white;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    align-items: center;
+
+}
+.borrar-producto {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+#hero {
+    background-image:url(../img/image.webp);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.aprende{
+    color:white;
+    font-size: 44px!important;
+    font-weight: 700;
+}
+.aprende-parrafo{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+#encabezado {
+    margin: 30px 0 5px 0;
+    font-size: 38px;
+    font-weight: 800;
+    color: #0066bf;
+    font-family: 'Roboto', sans-serif;
+}
+.encabezado-2{
+    text-align: center;
+    margin-bottom: 36px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*CARRITO*/
+.submenu {
+    position: relative;
+    padding-top: 12px;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+}
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right:0;
+    top:0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border:none;
+}
+
+/* BARRA */
+.barra {
+    padding: 20px 0;
+    background: rgb(0,102,191);
+    background: linear-gradient(90deg, rgba(0,102,191,1) 0%, rgba(11,11,11,1) 100%);
+}
+
+.barra p {
+    margin:0;
+    color: white;
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom:0;
+    }
+}
+.icono1 {
+    background-image: url(../img/money.png);
+}
+.icono2 {
+    background-image: url(../img/money.png);
+}
+.icono3 {
+    background-image: url(../img/money.png);
+}
+
+#lista-cursos .row {
+    margin-bottom:20px;
+}
+.agregar-carrito {
+    margin:10px 0;
+}
+
+/*PRODUCTOS*/
+.card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+.info-card  {
+    padding: 10px 20px;
+}
+
+.info-card p, 
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card h4{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.info-card .precio {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0066bf;
+}
+.info-card .parrafo-producto {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 10px;
+}
+.info-card .stock{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #111111;
+    
+}
+.info-card .cuotas{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 30px;
+
+}
+
+
+/*FOOTER*/
+.footer {
+    margin-top: 40px;
+    border-top:1px solid #aaa;
+    padding-top: 30px;
+    padding-bottom: 30px;   
+    background-color: #0066bf!important;
+}
+.footer .menu a{
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer-h2{
+    color:white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/*BOTONES*/
+.boton{
+    background-color: #0066bf!important;
+    color: white;
+    border-radius: 20px;
+}
+.boton:hover{
+    background-color: white!important;
+    transition: 1s;
+    color: #0066bf;
+}
